@@ -217,6 +217,6 @@ def facebook_event_details(id):
     return ans_dict
 
 
-ans = facebook_event_details('id')
+ans = facebook_event_details(example)
 for k, v in ans.items():
     print('\n' + str(k) + '  ' + str(v))
